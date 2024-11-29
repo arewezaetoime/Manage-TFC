@@ -1,21 +1,20 @@
 # [Required]
 # Values specific to your organization and environment. Please assign your values here:
 
-tfe_token = "your-hcp-terraform-usertoken"  # user/team/organization token. You can quickly obtain the token by entering the following command: terraform login
-github_oauth_token_id = "github-personal-access-oauth-token" # Github personal access token
+tfe_token = "your-hcp-user-token"  # user/team/organization token 
+github_oauth_token_id = "your-personal-access-token"
 
 
 
 # [Not required]
-# The variables listed below have default values. You can assign your own values here if you want to and use some them.
+# The variables listed below have default values. You can assign your own values here if you want to.
 
-organization_name = "" # Default name set to the variable is "The-Funky-Terraformers". If you wish to change the name please assign a new name here.
-default_hostname_hcp_terraform = "" # The default hostname for HCP Terraform is set to the variable app.terraform.io. Please change assign new hostname here if needed.
-github_oauth_client_name = "" # Default name set to the variable is "my-github-oauth-client". 
-# email_address = "" # Default email address set to the variable is "your-email-address@terraform.io". Please change the email address accordingly.
-# project_name = "" # Default value set to the variable is "interview-task-project". Please change this value here if you want to name the project differently.
-# vcs_repository_name = "" # Enter the prefered name of your VCS workspace in HCP Terraform. Default value set to the variable is "vcs-ws"
-repo_identifier = "" # Default value is "arewezaetoime/hcp-terraform". Please assign your own repository identifier here if needed
-cli_workspace = "" # Enter the prefered name of your CLI workspace in HCP Terraform. If you don't specify the name there is a default value assigned to the variable.
-branch_name = "" # Enter the name of the branch on the remote repository. The default value set to the variable is "main". Please change it here if your branch is "master" of other name.
-#oauth_token_id = ""  # repository connection token id. We don't need it. It is stored in the state file and dynamically generated and updated thereafter.
+# oauth_token_id = ""  # repository connection token id
+# # organization_name = "" # Default name set to the variable is "The-Funky-Terraformers". If you wish to change the name please assign a new name here.
+# default_hostname_hcp_terraform = "" # The default hostname for HCP Terraform is set to the variable app.terraform.io. Please change assign new hostname here if needed.
+# github_oauth_client_name = "" # Default name set to the variable is "my-github-oauth-client". 
+# # email_address = "" # Default email address set to the variable is "your-email-address@terraform.io". Please change the email address accordingly.
+# # project_name = "" # Default value set to the variable is "interview-task-project". Please change this value here if you want to name the project differently.
+# # vcs_repository_name = "" # Enter the prefered name of your VCS workspace in HCP Terraform. Default value set to the variable is "vcs-ws"
+# repo_identifier = "" # Default value is "arewezaetoime/hcp-terraform". Please assign your own repository identifier here if needed
+# branch_name = "" # Enter the name of the branch on the remote repository. The default value set to the variable is "main". Please change it here if your branch is "master" of other name.
