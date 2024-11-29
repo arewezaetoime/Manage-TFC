@@ -53,4 +53,4 @@ echo "Log in to https://app.terraform.io to view and manage your setup."
 
 # Final Message
 print_message "Setup Complete!"
-echo "All steps executed successfully. Thank you for using the Manage-TFC setup script."
+echo "All steps executed successfully."
