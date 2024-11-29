@@ -1,13 +1,10 @@
 #!/bin/bash
 
-# Part 2: Terraform Operations for Manage-TFC
 
-# Function to print formatted messages
 print_message() {
     echo -e "\n\033[1;34m$1\033[0m"
 }
 
-# Ensure Part 1 has been completed
 if [[ ! -f "terraform.tfvars" ]]; then
     echo -e "\n\033[1;31mError: 'terraform.tfvars' not found. Please run Part 1 and edit 'terraform.tfvars' before proceeding.\033[0m"
     exit 1
