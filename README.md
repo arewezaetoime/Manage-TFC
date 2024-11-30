@@ -39,6 +39,7 @@ Follow these steps to set up the project:
 
 3.**Run the shell script for your convenience**:
 To simplify the process of initializing, planning, and applying resources, a shell script is provided. Run the script from the working directory as the final step.
+
 Note: Make the script executable with the following command:
 ```bash
 chmod +x setup_hcp_terraform.sh
