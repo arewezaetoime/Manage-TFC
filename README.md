@@ -25,19 +25,19 @@ Before you begin, ensure you have the following:
 
 Follow these steps to set up the project:
 
-<span style="color: purple;">1. **Clone the Repository**:</span>
+🟣<span style="color: purple;">1. **Clone the Repository**:</span>
 ```bash
    git clone https://github.com/arewezaetoime/Manage-TFC.git
    cd Manage-TFC
 ```
 
-<span style="color: purple;">2.**Create terraform file from the example file and update the variables**:</span>
+🟣<span style="color: purple;">2.**Create terraform file from the example file and update the variables**:</span>
 ```bash
 - cp terraform.tfvars.example terraform.tfvars
 ```
 - Replace the example `tfe_token` and `github_oauth_token_id` values with your own tokens in the "terraform.tfvars" file and save it.
 
-<span style="color: purple;">3.**Run the shell script for your convenience**:</span>
+🟣<span style="color: purple;">3.**Run the shell script for your convenience**:</span>
 To simplify the process of initializing, planning, and applying resources, a shell script is provided. Run the script from the working directory as the final step.
 
 Note: Make the script executable with the following command:
