@@ -23,7 +23,7 @@ variable "organization_name" {
 }
 
 variable "repo_identifier" {
-  default = "arewezaetoime/hcp-terraform"
+  default = "arewezaetoime/Manage-TFC"
   description = "The path to the repository taken from the URI"
   type = string
 }

@@ -33,7 +33,7 @@ Follow these steps to set up the project:
 
 🟣 <span style="color: purple;">2.**Create terraform file from the example file and update the variables**:</span>
 ```bash
-- cp terraform.tfvars.example terraform.tfvars
+   cp terraform.tfvars.example terraform.tfvars
 ```
 - Replace the example `tfe_token` and `github_oauth_token_id` values with your own tokens in the "terraform.tfvars" file and save it.
 
