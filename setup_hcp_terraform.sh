@@ -10,7 +10,6 @@ if [[ ! -f "terraform.tfvars" ]]; then
     exit 1
 fi
 
-# Step 1: Initialize Terraform
 print_message "Initializing Terraform..."
 terraform init
 if [[ $? -ne 0 ]]; then
@@ -19,7 +18,6 @@ if [[ $? -ne 0 ]]; then
 fi
 echo "Terraform initialized successfully."
 
-# Step 2: Validate Terraform configuration
 print_message "Validating Terraform configuration..."
 terraform validate
 if [[ $? -ne 0 ]]; then
@@ -28,7 +26,6 @@ if [[ $? -ne 0 ]]; then
 fi
 echo "Terraform configuration is valid."
 
-# Step 3: Run Terraform Plan
 print_message "Running Terraform Plan..."
 terraform plan
 if [[ $? -ne 0 ]]; then
@@ -37,7 +34,6 @@ if [[ $? -ne 0 ]]; then
 fi
 echo "Terraform plan executed successfully."
 
-# Step 4: Apply Terraform configuration with auto-approval
 print_message "Applying Terraform configuration..."
 terraform apply -auto-approve
 if [[ $? -ne 0 ]]; then
